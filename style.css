@@ -24,7 +24,6 @@
     float: left;
  }
  .scroll-aparecer{
-    width: 100px;
     bottom: 0;
     background-color: #000;
     position: fixed;
