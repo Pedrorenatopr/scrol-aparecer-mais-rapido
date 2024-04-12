@@ -1,0 +1,32 @@
+.geral-boxes{
+    width: 100%;
+    float: left;
+ }
+ .box1,.box2,.box3{
+    width: 100%;
+    float: left;
+    height: 500px;
+ }
+ .box1{
+    background-color: #151414;
+ }
+ .box2{
+    background-color: #a41c1c;
+ }.box3{
+    background-color: #ffffff;
+ }
+ .geral-boxes{
+    width: 100%;
+    float: left;
+ }
+ .laranja{
+    width: 100%;
+    float: left;
+ }
+ .scroll-aparecer{
+    width: 100px;
+    bottom: 0;
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+ }

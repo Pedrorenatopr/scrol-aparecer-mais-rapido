@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <div class="box1">Role para baixo</div>
+
+    <div class="box2"></div>
+
+    <div class="box3"></div>
+
+    <div class="box2"></div>
+
+    <div class="box3"></div>
+
+    <div class="box2"></div>
+
+    <div class="box3"></div>
+
+    <div class="box2"></div>
+
+    <div class="box3"></div>
+
+    <div class="box2"></div>
+
+    <div class="box3"></div>
+    <div class="box2"></div>
+
+    <div class="box3"></div>
+
+    <div class="scroll-aparecer"></div>
+
+    <script>
+        $(document).ready(function(){
+   $(window).on('scroll', function() {
+      $('.scroll-aparecer').stop();
+      if($(this).scrollTop() > 200) {
+         $('.scroll-aparecer').animate({
+            height:"100px"
+         }, 300); /*Defina aqui o tempo em milisegundos */
+      }else{
+         $('.scroll-aparecer').animate({
+         height:"0"
+         }, 300); /*Defina aqui o tempo em milisegundos */
+      }
+   });
+});
+    </script>
+    
+</body>
+</html>
